@@ -55,12 +55,12 @@ export default function Portfolio() {
     },
     {
       id: 4,
-      title: "Inventory API",
-      description: "RESTful API for inventory management built with Java Spring Boot.",
+      title: "Company Website",
+      description: "PHP-based company website developed during my internship at Webbeyaz.",
       image: "/placeholder.svg?height=300&width=500",
-      tags: ["Java", "Spring Boot", "PostgreSQL"],
-      github: "https://github.com/mowerq",
-      category: "backend",
+      tags: ["PHP", "HTML", "CSS", "JavaScript"],
+      link: "#",
+      category: "fullstack",
     },
     {
       id: 5,
@@ -97,7 +97,7 @@ export default function Portfolio() {
       </div>
 
       <Tabs defaultValue="all" className="mb-6 sm:mb-8">
-        <TabsList className="bg-muted border border-border p-1 overflow-x-auto flex-nowrap w-full">
+        <TabsList className="bg-muted border border-border p-1 flex-nowrap w-full">
           <TabsTrigger
             value="all"
             onClick={() => setFilter("all")}
@@ -111,13 +111,6 @@ export default function Portfolio() {
             className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white text-xs sm:text-sm"
           >
             {t("frontend")}
-          </TabsTrigger>
-          <TabsTrigger
-            value="backend"
-            onClick={() => setFilter("backend")}
-            className="data-[state=active]:bg-emerald-600 data-[state=active]:text-white text-xs sm:text-sm"
-          >
-            {t("backend")}
           </TabsTrigger>
           <TabsTrigger
             value="fullstack"

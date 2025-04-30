@@ -120,7 +120,7 @@ export default function Hero() {
           {["React", "JavaScript", "TypeScript", "Node.js", "Java Spring"].map((skill) => (
             <span
               key={skill}
-              className="text-xs bg-zinc-800/80 bg-emerald-700 text-white px-3 py-1 rounded-full border border-emerald-600/30"
+              className="text-xs bg-emerald-900 text-white px-3 py-1 rounded-full border border-emerald-600/30"
             >
               {skill}
             </span>
