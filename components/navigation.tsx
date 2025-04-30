@@ -28,6 +28,10 @@ export default function Navigation({
 
   // Scroll to section with 36px offset
   const scrollToSection = (id: string) => {
+    if (id === "home") {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+      return
+    }
     const yOffset = -36
     const element = document.getElementById(id)
     if (element) {
