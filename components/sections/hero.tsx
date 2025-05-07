@@ -107,10 +107,10 @@ export default function Hero() {
       <p
         className={`text-sm sm:text-base text-zinc-400 max-w-2xl leading-relaxed ${isMobile ? "text-center mx-auto" : ""}`}
       >
-        I create modern, responsive web applications with a focus on user experience. Specializing in{" "}
-        <span className="text-emerald-500 font-medium">React</span> and backed by experience with{" "}
-        <span className="text-emerald-500 font-medium">Java Spring</span>,
-        <span className="text-emerald-500 font-medium"> Node.js</span>, and
+        {t("hero.description")}
+        <span className="text-emerald-500 font-medium">React</span>,
+        <span className="text-emerald-500 font-medium"> Java Spring</span>,
+        <span className="text-emerald-500 font-medium"> Node.js</span>, {t("and")}
         <span className="text-emerald-500 font-medium"> Python</span>.
       </p>
 
@@ -129,11 +129,11 @@ export default function Hero() {
       )}
 
       <div className={`flex flex-wrap gap-3 sm:gap-4 pt-4 relative z-10 ${isMobile ? "justify-center" : ""}`}>
-        <Button size="default" className="bg-emerald-600 hover:bg-emerald-700 text-white text-sm">
+        <Button size="default" className="bg-emerald-600 hover:bg-emerald-700 text-white text-sm w-40 md:w-auto">
           <Download className="mr-2 h-4 w-4" />
           {t("downloadCV")}
         </Button>
-        <Button size="default" variant="outline" className="group text-sm" asChild>
+        <Button size="default" variant="outline" className="group text-sm w-40 md:w-auto" asChild>
           <a href="#portfolio">
             {t("viewMyWork")}
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />

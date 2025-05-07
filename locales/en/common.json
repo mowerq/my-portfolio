@@ -32,5 +32,10 @@
   "sendMessage": "Send Message",
   "sending": "Sending...",
   "messageSent": "Message Sent",
-  "thankYouMessage": "Thank you for your message. I'll get back to you soon!"
+  "thankYouMessage": "Thank you for your message. I'll get back to you soon!",
+  "and": "and",
+  "hero" : {
+    "title": "Full Stack Web Developer",
+    "description": "I'm a passionate web developer with a front-end focus, experienced in building dynamic and responsive web applications. I also have back-end experience and enjoy learning new technologies and improving my skills. Here are some of the technologies I’ve worked with: "
+  }
 }

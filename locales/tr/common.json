@@ -32,5 +32,10 @@
   "sendMessage": "Mesaj Gönder",
   "sending": "Gönderiliyor...",
   "messageSent": "Mesaj Gönderildi",
-  "thankYouMessage": "Mesajınız için teşekkürler. En kısa sürede size dönüş yapacağım!"
+  "thankYouMessage": "Mesajınız için teşekkürler. En kısa sürede size dönüş yapacağım!",
+  "and": "ve",
+  "hero": {
+    "title": "Full Stack Web Geliştirici",
+    "description": "Front-end odaklı, dinamik ve responsive web uygulamaları geliştirme konusunda tutkulu bir web geliştiricisiyim. Profesyonel anlamda front-end kadar olmasa da back-end geliştirme konusunda da deneyimim var. Yeni teknolojiler öğrenmeyi ve yeteneklerimi geliştirmeyi seviyorum. İşte deneyim sahibi olduğum bazı teknolojiler: "
+  }
 }

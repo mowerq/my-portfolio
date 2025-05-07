@@ -32,7 +32,7 @@ export default function Navigation({
       window.scrollTo({ top: 0, behavior: "smooth" })
       return
     }
-    const yOffset = -36
+    const yOffset = isMobile ? -36 : 0;
     const element = document.getElementById(id)
     if (element) {
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset
